@@ -13,14 +13,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r pressure, echo=FALSE}
 
+#load packages
 library(raster)
 library(tidyverse)
 library(sf)
 library(rgdal)
 library(dbplyr)
 library(maptools)
+library(dismo)
 
-
+#others you might need: fasterize, rgeos, scales 
+#try on other computer: rJava
 
 ```
 
